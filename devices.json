@@ -1,0 +1,704 @@
+{
+  "data": [
+    {
+      "id": "bpt3",
+      "name": "BPT3",
+      "category_id": "thermal_printer",
+      "vendor": "BPT",
+      "vid": "0x0483",
+      "pid": "0x5740",
+      "thumbnail_url": "",
+      "diagnostic_steps": ["check_usb", "check_driver", "check_communication", "test_function"],
+      "drivers": [
+        {
+          "id": "bpt3-win-latest",
+          "version": "2.1.0",
+          "is_latest": true,
+          "release_date": "2026-03-15",
+          "download_url": "https://drive.usercontent.google.com/download?id=1_HvphlAfXBwiTVo304TQ1hJVGBuf4uxH&export=download&confirm=t",
+          "size_bytes": 4200000,
+          "checksum_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+          "supported_os": [{ "name": "windows", "versions": ["10", "11"] }],
+          "changelog": "Driver máy in hóa đơn BPT3"
+        }
+      ]
+    },
+    {
+      "id": "zy307",
+      "name": "ZY307",
+      "category_id": "thermal_printer",
+      "vendor": "ZY",
+      "vid": "0x0483",
+      "pid": "0x5743",
+      "thumbnail_url": "",
+      "diagnostic_steps": ["check_usb", "check_driver", "check_communication", "test_function"],
+      "drivers": [
+        {
+          "id": "zy307-win-latest",
+          "version": "1.5.0",
+          "is_latest": true,
+          "release_date": "2026-03-20",
+          "download_url": "https://drive.usercontent.google.com/download?id=1rsBSApvyP8XoLo_qNrdFHU7gM5PQPT9f&export=download&confirm=t",
+          "size_bytes": 4000000,
+          "checksum_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+          "supported_os": [{ "name": "windows", "versions": ["10", "11"] }],
+          "changelog": "Driver máy in hóa đơn ZY307"
+        }
+      ]
+    },
+    {
+      "id": "kv804",
+      "name": "KV804",
+      "category_id": "thermal_printer",
+      "vendor": "KiotViet",
+      "vid": "0x1FC9",
+      "pid": "0x2016",
+      "thumbnail_url": "",
+      "diagnostic_steps": ["check_usb", "check_driver", "check_communication", "test_function"],
+      "drivers": [
+        {
+          "id": "kv804-win-latest",
+          "version": "3.0.1",
+          "is_latest": true,
+          "release_date": "2026-03-18",
+          "download_url": "https://drive.usercontent.google.com/download?id=1SlB6xQG_09ifyu4jNhWqtAKEbRlwIe3W&export=download&confirm=t",
+          "size_bytes": 5100000,
+          "checksum_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+          "supported_os": [{ "name": "windows", "versions": ["10", "11"] }],
+          "changelog": "Driver máy in hóa đơn KV804"
+        }
+      ]
+    },
+    {
+      "id": "kv804-ver2",
+      "name": "KV804 ver2.0",
+      "category_id": "thermal_printer",
+      "vendor": "KiotViet",
+      "vid": "0x154F",
+      "pid": "0x0805",
+      "thumbnail_url": "",
+      "diagnostic_steps": ["check_usb", "check_driver", "check_communication", "test_function"],
+      "drivers": [
+        {
+          "id": "kv804v2-win-latest",
+          "version": "3.2.0",
+          "is_latest": true,
+          "release_date": "2026-03-22",
+          "download_url": "https://drive.usercontent.google.com/download?id=1VkSaDfQAukGCJV_LC3Lz9BW9x0GTUCUc&export=download&confirm=t",
+          "size_bytes": 5300000,
+          "checksum_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+          "supported_os": [{ "name": "windows", "versions": ["10", "11"] }],
+          "changelog": "Driver máy in hóa đơn KV804 ver2.0"
+        }
+      ]
+    },
+    {
+      "id": "pos-win11",
+      "name": "POS Win11",
+      "category_id": "thermal_printer",
+      "vendor": "POS",
+      "vid": "0x0416",
+      "pid": "0x5011",
+      "thumbnail_url": "",
+      "diagnostic_steps": ["check_usb", "check_driver", "check_communication", "test_function"],
+      "drivers": [
+        {
+          "id": "pos-win11-latest",
+          "version": "1.0.0",
+          "is_latest": true,
+          "release_date": "2026-02-01",
+          "download_url": "https://drive.usercontent.google.com/download?id=1dy9iuR_IIG0v3U7pp2dkgPNclp80kh94&export=download&confirm=t",
+          "size_bytes": 6700000,
+          "checksum_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+          "supported_os": [{ "name": "windows", "versions": ["11"] }],
+          "changelog": "Driver tối ưu cho Windows 11"
+        }
+      ]
+    },
+    {
+      "id": "itp",
+      "name": "ITP",
+      "category_id": "thermal_printer",
+      "vendor": "ITP",
+      "vid": "0x0483",
+      "pid": "0x7523",
+      "thumbnail_url": "",
+      "diagnostic_steps": ["check_usb", "check_driver", "check_communication", "test_function"],
+      "drivers": [
+        {
+          "id": "itp-win-latest",
+          "version": "1.2.0",
+          "is_latest": true,
+          "release_date": "2026-03-14",
+          "download_url": "https://drive.usercontent.google.com/download?id=1Aq3OhjMegSLlyuBzA-IYs9AZpDB4v2aD&export=download&confirm=t",
+          "size_bytes": 2900000,
+          "checksum_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+          "supported_os": [{ "name": "windows", "versions": ["10", "11"] }],
+          "changelog": "Driver máy in ITP"
+        }
+      ]
+    },
+    {
+      "id": "xprinter",
+      "name": "Xprinter",
+      "category_id": "thermal_printer",
+      "vendor": "Xprinter",
+      "vid": "0x0416",
+      "pid": "0x5012",
+      "thumbnail_url": "",
+      "diagnostic_steps": ["check_usb", "check_driver", "check_communication", "test_function"],
+      "drivers": [
+        {
+          "id": "xprinter-win-latest",
+          "version": "2.0.5",
+          "is_latest": true,
+          "release_date": "2026-03-10",
+          "download_url": "https://drive.usercontent.google.com/download?id=1RxeH69NenlZqP9k3vRVh0h7pxxijalQs&export=download&confirm=t",
+          "size_bytes": 3200000,
+          "checksum_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+          "supported_os": [{ "name": "windows", "versions": ["10", "11"] }],
+          "changelog": "Driver Xprinter"
+        }
+      ]
+    },
+    {
+      "id": "xprinter-2",
+      "name": "Xprinter 2.0",
+      "category_id": "thermal_printer",
+      "vendor": "Xprinter",
+      "vid": "0x0416",
+      "pid": "0x5013",
+      "thumbnail_url": "",
+      "diagnostic_steps": ["check_usb", "check_driver", "check_communication", "test_function"],
+      "drivers": [
+        {
+          "id": "xprinter2-win-latest",
+          "version": "1.0.0",
+          "is_latest": true,
+          "release_date": "2026-01-20",
+          "download_url": "https://drive.usercontent.google.com/download?id=16pNhkHEzZjgNDN6z5gacDb-D5HsX2MIz&export=download&confirm=t",
+          "size_bytes": 3400000,
+          "checksum_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+          "supported_os": [{ "name": "windows", "versions": ["10", "11"] }],
+          "changelog": "Driver Xprinter 2.0"
+        }
+      ]
+    },
+    {
+      "id": "prp085",
+      "name": "PRP085",
+      "category_id": "thermal_printer",
+      "vendor": "PRP",
+      "vid": "0x0416",
+      "pid": "0x5014",
+      "thumbnail_url": "",
+      "diagnostic_steps": ["check_usb", "check_driver", "check_communication", "test_function"],
+      "drivers": [
+        {
+          "id": "prp085-win-latest",
+          "version": "1.0.0",
+          "is_latest": true,
+          "release_date": "2025-12-10",
+          "download_url": "https://drive.usercontent.google.com/download?id=1XmXt5gRg57seI6JXEVDFkQi_7IcgB4ax&export=download&confirm=t",
+          "size_bytes": 3600000,
+          "checksum_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+          "supported_os": [{ "name": "windows", "versions": ["10", "11"] }],
+          "changelog": "Driver PRP085"
+        }
+      ]
+    },
+    {
+      "id": "rp58-80",
+      "name": "RP 58-80",
+      "category_id": "thermal_printer",
+      "vendor": "RP",
+      "vid": "0x0416",
+      "pid": "0x5015",
+      "thumbnail_url": "",
+      "diagnostic_steps": ["check_usb", "check_driver", "check_communication", "test_function"],
+      "drivers": [
+        {
+          "id": "rp5880-win-latest",
+          "version": "1.0.0",
+          "is_latest": true,
+          "release_date": "2025-11-15",
+          "download_url": "https://drive.usercontent.google.com/download?id=1Fg1VMO3hEhamqy1NC1o3fe1ycKspR8pg&export=download&confirm=t",
+          "size_bytes": 3800000,
+          "checksum_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+          "supported_os": [{ "name": "windows", "versions": ["10", "11"] }],
+          "changelog": "Driver hỗ trợ cả khổ 58mm và 80mm"
+        }
+      ]
+    },
+    {
+      "id": "pos80series",
+      "name": "POS80 Series",
+      "category_id": "thermal_printer",
+      "vendor": "POS",
+      "vid": "0x1A86",
+      "pid": "0x7523",
+      "thumbnail_url": "",
+      "diagnostic_steps": ["check_usb", "check_driver", "check_communication", "test_function"],
+      "drivers": [
+        {
+          "id": "pos80-win-latest",
+          "version": "1.5.0",
+          "is_latest": true,
+          "release_date": "2026-02-28",
+          "download_url": "https://drive.usercontent.google.com/download?id=1nZFLGNCrIywMlZ33T5hlAyvTSvpPK0C7&export=download&confirm=t",
+          "size_bytes": 4100000,
+          "checksum_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+          "supported_os": [{ "name": "windows", "versions": ["10", "11"] }],
+          "changelog": "Driver POS80 Series - hỗ trợ 58mm, 72mm, 80mm"
+        }
+      ]
+    },
+    {
+      "id": "sgt88iv",
+      "name": "SGT88IV",
+      "category_id": "thermal_printer",
+      "vendor": "SGT",
+      "vid": "0x0416",
+      "pid": "0x5016",
+      "thumbnail_url": "",
+      "diagnostic_steps": ["check_usb", "check_driver", "check_communication", "test_function"],
+      "drivers": [
+        {
+          "id": "sgt88iv-win-latest",
+          "version": "1.0.0",
+          "is_latest": true,
+          "release_date": "2026-01-05",
+          "download_url": "https://drive.usercontent.google.com/download?id=1neMlS4sfJJE2RO9BvlTc8aqiFGunOdxI&export=download&confirm=t",
+          "size_bytes": 4400000,
+          "checksum_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+          "supported_os": [{ "name": "windows", "versions": ["10", "11"] }],
+          "changelog": "Driver SGT88IV"
+        }
+      ]
+    },
+    {
+      "id": "hprt-receipt",
+      "name": "HPRT",
+      "category_id": "thermal_printer",
+      "vendor": "HPRT",
+      "vid": "0x0493",
+      "pid": "0x8760",
+      "thumbnail_url": "",
+      "diagnostic_steps": ["check_usb", "check_driver", "check_communication", "test_function"],
+      "drivers": [
+        {
+          "id": "hprt-win-latest",
+          "version": "1.0.0",
+          "is_latest": true,
+          "release_date": "2025-12-01",
+          "download_url": "https://drive.usercontent.google.com/download?id=1q-EcEsU_dkjkVNOGhSL-erNz2XjE3-4A&export=download&confirm=t",
+          "size_bytes": 5800000,
+          "checksum_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+          "supported_os": [{ "name": "windows", "versions": ["10", "11"] }],
+          "changelog": "Driver HPRT"
+        }
+      ]
+    },
+    {
+      "id": "365b",
+      "name": "365B",
+      "printer_name": "Printer-80",
+      "category_id": "label_printer",
+      "vendor": "ZY",
+      "vid": "0x1FC9",
+      "pid": "0x2016",
+      "thumbnail_url": "",
+      "diagnostic_steps": ["check_usb", "check_driver", "check_communication", "test_function"],
+      "drivers": [
+        {
+          "id": "365b-win-latest",
+          "version": "2.0.0",
+          "is_latest": true,
+          "release_date": "2026-03-05",
+          "download_url": "https://drive.usercontent.google.com/download?id=1maU8AB4jFZUBamJJgUdI96GUdIzV7MsP&export=download&confirm=t",
+          "size_bytes": 4500000,
+          "checksum_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+          "supported_os": [{ "name": "windows", "versions": ["10", "11"] }],
+          "changelog": "Driver máy in tem 365B"
+        }
+      ]
+    },
+    {
+      "id": "label-410b",
+      "name": "410B",
+      "category_id": "label_printer",
+      "vendor": "ZY",
+      "vid": "0x04B8",
+      "pid": "0x0410",
+      "thumbnail_url": "",
+      "diagnostic_steps": ["check_usb", "check_driver", "check_communication", "test_function"],
+      "drivers": [
+        {
+          "id": "410b-win-latest",
+          "version": "1.3.0",
+          "is_latest": true,
+          "release_date": "2026-02-10",
+          "download_url": "https://drive.usercontent.google.com/download?id=16KgL4BHUaXE-O_GCVHTWOg0fD5BNxFaW&export=download&confirm=t",
+          "size_bytes": 4700000,
+          "checksum_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+          "supported_os": [{ "name": "windows", "versions": ["10", "11"] }],
+          "changelog": "Driver máy in tem 410B"
+        }
+      ]
+    },
+    {
+      "id": "label-zy609",
+      "name": "ZY609",
+      "category_id": "label_printer",
+      "vendor": "ZY",
+      "vid": "0x04B8",
+      "pid": "0x0609",
+      "thumbnail_url": "",
+      "diagnostic_steps": ["check_usb", "check_driver", "check_communication", "test_function"],
+      "drivers": [
+        {
+          "id": "zy609-win-latest",
+          "version": "1.0.0",
+          "is_latest": true,
+          "release_date": "2026-01-15",
+          "download_url": "https://drive.usercontent.google.com/download?id=1VXzDz4kLhwEoPbY6faLtdYCOiASeyKMc&export=download&confirm=t",
+          "size_bytes": 3800000,
+          "checksum_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+          "supported_os": [{ "name": "windows", "versions": ["10", "11"] }],
+          "changelog": "Driver máy in tem ZY609"
+        }
+      ]
+    },
+    {
+      "id": "label-tsc",
+      "name": "TSC",
+      "category_id": "label_printer",
+      "vendor": "TSC",
+      "vid": "0x1203",
+      "pid": "0x0140",
+      "thumbnail_url": "",
+      "diagnostic_steps": ["check_usb", "check_driver", "check_communication", "test_function"],
+      "drivers": [
+        {
+          "id": "tsc-win-latest",
+          "version": "3.0.0",
+          "is_latest": true,
+          "release_date": "2026-02-20",
+          "download_url": "https://drive.usercontent.google.com/download?id=1Ph7EvquHTP9ByGFkTvAm1SYoWrBTcU_9&export=download&confirm=t",
+          "size_bytes": 6200000,
+          "checksum_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+          "supported_os": [{ "name": "windows", "versions": ["10", "11"] }],
+          "changelog": "Driver TSC"
+        }
+      ]
+    },
+    {
+      "id": "label-godex",
+      "name": "Godex",
+      "category_id": "label_printer",
+      "vendor": "Godex",
+      "vid": "0x1D90",
+      "pid": "0x2060",
+      "thumbnail_url": "",
+      "diagnostic_steps": ["check_usb", "check_driver", "check_communication", "test_function"],
+      "drivers": [
+        {
+          "id": "godex-win-latest",
+          "version": "2.0.0",
+          "is_latest": true,
+          "release_date": "2026-03-01",
+          "download_url": "https://drive.usercontent.google.com/download?id=1JSmV3aDK90HIJ7PMnDrwhvrYLjudpdT7&export=download&confirm=t",
+          "size_bytes": 5600000,
+          "checksum_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+          "supported_os": [{ "name": "windows", "versions": ["10", "11"] }],
+          "changelog": "Driver Godex"
+        }
+      ]
+    },
+    {
+      "id": "label-zebra",
+      "name": "Zebra",
+      "category_id": "label_printer",
+      "vendor": "Zebra",
+      "vid": "0x0A5F",
+      "pid": "0x00A3",
+      "thumbnail_url": "",
+      "diagnostic_steps": ["check_usb", "check_driver", "check_communication", "test_function"],
+      "drivers": [
+        {
+          "id": "zebra-win-latest",
+          "version": "4.0.0",
+          "is_latest": true,
+          "release_date": "2026-02-15",
+          "download_url": "https://drive.usercontent.google.com/download?id=1MQEIJTbKzpq-bj4oyD9c88q9bPprL0NY&export=download&confirm=t",
+          "size_bytes": 7100000,
+          "checksum_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+          "supported_os": [{ "name": "windows", "versions": ["10", "11"] }],
+          "changelog": "Driver Zebra"
+        }
+      ]
+    },
+    {
+      "id": "label-shoptida",
+      "name": "Shoptida",
+      "category_id": "label_printer",
+      "vendor": "Shoptida",
+      "vid": "0x1D90",
+      "pid": "0x2061",
+      "thumbnail_url": "",
+      "diagnostic_steps": ["check_usb", "check_driver", "check_communication", "test_function"],
+      "drivers": [
+        {
+          "id": "shoptida-win-latest",
+          "version": "1.0.0",
+          "is_latest": true,
+          "release_date": "2025-10-20",
+          "download_url": "https://drive.usercontent.google.com/download?id=1lqHsv46dhmAlsGvw7ALCRR7RQUGRDLJc&export=download&confirm=t",
+          "size_bytes": 4200000,
+          "checksum_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+          "supported_os": [{ "name": "windows", "versions": ["10", "11"] }],
+          "changelog": "Driver Shoptida"
+        }
+      ]
+    },
+    {
+      "id": "scale-upaq",
+      "name": "UPA Q",
+      "category_id": "scale",
+      "vendor": "UNIPOS",
+      "vid": "0x1A86",
+      "pid": "0x7523",
+      "thumbnail_url": "",
+      "diagnostic_steps": ["check_usb", "check_driver", "check_communication", "test_function"],
+      "drivers": [
+        {
+          "id": "upaq-win-latest",
+          "version": "1.5.0",
+          "is_latest": true,
+          "release_date": "2026-03-08",
+          "download_url": "https://drive.usercontent.google.com/download?id=1fPEnUr9wAhXaBiXudDOMiFgIa0IeIAYF&export=download&confirm=t",
+          "size_bytes": 2200000,
+          "checksum_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+          "supported_os": [{ "name": "windows", "versions": ["10", "11"] }],
+          "changelog": "Driver cân điện tử UPA Q"
+        }
+      ]
+    },
+    {
+      "id": "scale-uwan",
+      "name": "UWA N",
+      "category_id": "scale",
+      "vendor": "UNIPOS",
+      "vid": "0x1A86",
+      "pid": "0x7524",
+      "thumbnail_url": "",
+      "diagnostic_steps": ["check_usb", "check_driver", "check_communication", "test_function"],
+      "drivers": [
+        {
+          "id": "uwan-win-latest",
+          "version": "1.2.0",
+          "is_latest": true,
+          "release_date": "2026-02-25",
+          "download_url": "https://drive.usercontent.google.com/download?id=1CV4rqIHT6pPctw2_4Zah11Z9mBfxoajc&export=download&confirm=t",
+          "size_bytes": 1900000,
+          "checksum_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+          "supported_os": [{ "name": "windows", "versions": ["10", "11"] }],
+          "changelog": "Driver cân điện tử UWA N"
+        }
+      ]
+    },
+    {
+      "id": "scale-uwam",
+      "name": "UWA M",
+      "category_id": "scale",
+      "vendor": "UNIPOS",
+      "vid": "0x1A86",
+      "pid": "0x7525",
+      "thumbnail_url": "",
+      "diagnostic_steps": ["check_usb", "check_driver", "check_communication", "test_function"],
+      "drivers": [
+        {
+          "id": "uwam-win-latest",
+          "version": "1.2.0",
+          "is_latest": true,
+          "release_date": "2026-02-25",
+          "download_url": "https://drive.usercontent.google.com/download?id=1S44gBY147QFWfJKZJBtPBSq6sQ8dvhdv&export=download&confirm=t",
+          "size_bytes": 1900000,
+          "checksum_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+          "supported_os": [{ "name": "windows", "versions": ["10", "11"] }],
+          "changelog": "Driver cân điện tử UWA M"
+        }
+      ]
+    },
+    {
+      "id": "scale-gc27",
+      "name": "GC27",
+      "category_id": "scale",
+      "vendor": "CAS",
+      "vid": "0x1A86",
+      "pid": "0x7526",
+      "thumbnail_url": "",
+      "diagnostic_steps": ["check_usb", "check_driver", "check_communication", "test_function"],
+      "drivers": [
+        {
+          "id": "gc27-win-latest",
+          "version": "2.0.0",
+          "is_latest": true,
+          "release_date": "2026-01-30",
+          "download_url": "https://drive.usercontent.google.com/download?id=1erBT9e45gRlGhMFNBDp7jW3qhU-cqq6a&export=download&confirm=t",
+          "size_bytes": 2500000,
+          "checksum_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+          "supported_os": [{ "name": "windows", "versions": ["10", "11"] }],
+          "changelog": "Driver cân điện tử GC27"
+        }
+      ]
+    },
+    {
+      "id": "poleapp",
+      "name": "PoleApp",
+      "category_id": "price_display",
+      "vendor": "KiotViet",
+      "vid": "0x154F",
+      "pid": "0x0010",
+      "thumbnail_url": "",
+      "diagnostic_steps": ["check_usb", "check_driver", "check_communication"],
+      "drivers": [
+        {
+          "id": "poleapp-v2.0.0",
+          "version": "2.0.0",
+          "is_latest": true,
+          "release_date": "2026-03-01",
+          "download_url": "https://drive.usercontent.google.com/download?id=1HYSuO10viqNPzYV4liGCfRo-Oj-dGkBT&export=download&confirm=t",
+          "size_bytes": 8500000,
+          "checksum_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+          "supported_os": [{ "name": "windows", "versions": ["10", "11"] }],
+          "changelog": "Giao diện mới, hỗ trợ màn hình 4.3 inch"
+        },
+        {
+          "id": "poleapp-v1.1.1",
+          "version": "1.1.1",
+          "is_latest": false,
+          "release_date": "2025-11-10",
+          "download_url": "https://drive.usercontent.google.com/download?id=1KTCmLgh_CK32UL3Amssho5zYPmeQVyw1&export=download&confirm=t",
+          "size_bytes": 7800000,
+          "checksum_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+          "supported_os": [{ "name": "windows", "versions": ["10"] }],
+          "changelog": "Sửa lỗi hiển thị giá khi có dấu chấm"
+        },
+        {
+          "id": "poleapp-v1.1.0",
+          "version": "1.1.0",
+          "is_latest": false,
+          "release_date": "2025-06-05",
+          "download_url": "https://drive.usercontent.google.com/download?id=1cCd0UgFm95am1E6hsfumchAywiRfvhYj&export=download&confirm=t",
+          "size_bytes": 7600000,
+          "checksum_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+          "supported_os": [{ "name": "windows", "versions": ["10"] }],
+          "changelog": "Bổ sung tính năng tự động cuộn giá"
+        },
+        {
+          "id": "poleapp-v1.0.0",
+          "version": "1.0.0",
+          "is_latest": false,
+          "release_date": "2025-01-15",
+          "download_url": "https://drive.usercontent.google.com/download?id=18lL8yOMQdrWtAlgBhFwHkx3DgGzF_-7P&export=download&confirm=t",
+          "size_bytes": 7200000,
+          "checksum_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+          "supported_os": [{ "name": "windows", "versions": ["10"] }],
+          "changelog": "Phiên bản đầu tiên"
+        }
+      ]
+    },
+    {
+      "id": "kv68",
+      "name": "KV68",
+      "category_id": "qr_display",
+      "vendor": "KiotViet",
+      "vid": "0x154F",
+      "pid": "0x0068",
+      "thumbnail_url": "",
+      "diagnostic_steps": ["check_usb", "check_driver", "check_communication"],
+      "drivers": [
+        {
+          "id": "kv68-win-latest",
+          "version": "1.2.0",
+          "is_latest": true,
+          "release_date": "2026-01-10",
+          "download_url": "https://drive.usercontent.google.com/download?id=1_dRckxU2gBuy5VHRXxccHau_MIOXuCtW&export=download&confirm=t",
+          "size_bytes": 3100000,
+          "checksum_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+          "supported_os": [{ "name": "windows", "versions": ["7", "10", "11"] }],
+          "changelog": "Hỗ trợ Windows 7 SP1"
+        }
+      ]
+    },
+    {
+      "id": "f92",
+      "name": "F92",
+      "category_id": "qr_display",
+      "vendor": "KiotViet",
+      "vid": "0x154F",
+      "pid": "0x0092",
+      "thumbnail_url": "",
+      "diagnostic_steps": ["check_usb", "check_driver", "check_communication"],
+      "drivers": [
+        {
+          "id": "f92-win-latest",
+          "version": "1.1.0",
+          "is_latest": true,
+          "release_date": "2025-12-15",
+          "download_url": "https://drive.usercontent.google.com/download?id=1SZ_U5FW-GOaSRM9NfMizbDESHXpSJsFX&export=download&confirm=t",
+          "size_bytes": 2800000,
+          "checksum_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+          "supported_os": [{ "name": "windows", "versions": ["7", "10", "11"] }],
+          "changelog": "Tăng tốc độ hiển thị QR"
+        }
+      ]
+    },
+    {
+      "id": "doorkq",
+      "name": "DoorKq",
+      "category_id": "attendance",
+      "vendor": "KiotViet",
+      "vid": "0x154F",
+      "pid": "0x00D0",
+      "thumbnail_url": "",
+      "diagnostic_steps": ["check_usb", "check_driver", "check_communication", "test_function"],
+      "drivers": [
+        {
+          "id": "doorkq-v3.0.0",
+          "version": "3.0.0",
+          "is_latest": true,
+          "release_date": "2026-03-01",
+          "download_url": "https://drive.usercontent.google.com/download?id=1nry6qFEsHIeVJWeCmGMg5iLjB23HAWel&export=download&confirm=t",
+          "size_bytes": 9200000,
+          "checksum_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+          "supported_os": [{ "name": "windows", "versions": ["10", "11"] }],
+          "changelog": "Hỗ trợ nhận diện khuôn mặt, thêm báo cáo tháng"
+        },
+        {
+          "id": "doorkq-v2.0.0",
+          "version": "2.0.0",
+          "is_latest": false,
+          "release_date": "2025-08-01",
+          "download_url": "https://drive.usercontent.google.com/download?id=1dl_0r_PzgkoGi7IVfA9bBV-SY7-3C2MZ&export=download&confirm=t",
+          "size_bytes": 8700000,
+          "checksum_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+          "supported_os": [{ "name": "windows", "versions": ["10"] }],
+          "changelog": "Bổ sung quét vân tay, cải thiện UI"
+        },
+        {
+          "id": "doorkq-v1.0.0",
+          "version": "1.0.0",
+          "is_latest": false,
+          "release_date": "2024-12-10",
+          "download_url": "https://drive.usercontent.google.com/download?id=18DqJI-VZCoAZO4uCwqlmXK9Ul1YO0tuZ&export=download&confirm=t",
+          "size_bytes": 7900000,
+          "checksum_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+          "supported_os": [{ "name": "windows", "versions": ["10"] }],
+          "changelog": "Phiên bản đầu tiên"
+        }
+      ]
+    }
+  ]
+}
