@@ -163,6 +163,7 @@
     },
     {
       "id": "prp085",
+      "disabled": true,
       "name": "PRP085",
       "category_id": "thermal_printer",
       "vendor": "PRP",
@@ -186,6 +187,7 @@
     },
     {
       "id": "rp58-80",
+      "disabled": true,
       "name": "RP 58-80",
       "category_id": "thermal_printer",
       "vendor": "RP",
@@ -209,6 +211,7 @@
     },
     {
       "id": "pos80series",
+      "disabled": true,
       "name": "POS80 Series",
       "category_id": "thermal_printer",
       "vendor": "POS",
@@ -325,6 +328,7 @@
     },
     {
       "id": "label-zy609",
+      "disabled": true,
       "name": "ZY609",
       "category_id": "label_printer",
       "vendor": "ZY",
@@ -440,6 +444,7 @@
     },
     {
       "id": "scale-upaq",
+      "disabled": true,
       "name": "UPA Q",
       "category_id": "scale",
       "vendor": "UNIPOS",
@@ -486,6 +491,7 @@
     },
     {
       "id": "scale-uwam",
+      "disabled": true,
       "name": "UWA M",
       "category_id": "scale",
       "vendor": "UNIPOS",
@@ -575,6 +581,7 @@
         },
         {
           "id": "poleapp-v1.0.0",
+          "disabled": true,
           "version": "1.0.0",
           "is_latest": false,
           "release_date": "2025-01-15",
@@ -661,7 +668,7 @@
           "download_url": "https://github.com/thanhphu183/kv-hardware-driver/raw/refs/heads/main/drivers/may-cham-cong/DoorKq-ver2.0/DoorKq_V3.1.9.exe",
           "size_bytes": 80905770,
           "checksum_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
-          "supported_os": [{ "name": "windows", "versions": ["10"] }],
+        "supported_os": [{ "name": "windows", "versions": ["10", "11"] }],
           "changelog": "Bổ sung quét vân tay, cải thiện UI"
         },
         {
@@ -672,7 +679,7 @@
           "download_url": "https://github.com/thanhphu183/kv-hardware-driver/raw/refs/heads/main/drivers/may-cham-cong/DoorKq-ver1.0/DoorKq_V3.0.8.exe",
           "size_bytes": 88294259,
           "checksum_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
-          "supported_os": [{ "name": "windows", "versions": ["10"] }],
+          "supported_os": [{ "name": "windows", "versions": ["10", "11"] }],
           "changelog": "Phiên bản đầu tiên"
         }
       ]
