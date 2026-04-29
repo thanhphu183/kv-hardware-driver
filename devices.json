@@ -162,78 +162,6 @@
       ]
     },
     {
-      "id": "prp085",
-      "disabled": true,
-      "name": "PRP085",
-      "category_id": "thermal_printer",
-      "vendor": "PRP",
-      "vid": "0x0416",
-      "pid": "0x5014",
-      "thumbnail_url": "",
-      "diagnostic_steps": ["check_usb", "check_driver", "check_communication", "test_function"],
-      "drivers": [
-        {
-          "id": "prp085-win-latest",
-          "version": "1.0.0",
-          "is_latest": true,
-          "release_date": "2025-12-10",
-          "download_url": "https://drive.usercontent.google.com/download?id=1XmXt5gRg57seI6JXEVDFkQi_7IcgB4ax&export=download&confirm=t",
-          "size_bytes": 3600000,
-          "checksum_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
-          "supported_os": [{ "name": "windows", "versions": ["10", "11"] }],
-          "changelog": "Driver PRP085"
-        }
-      ]
-    },
-    {
-      "id": "rp58-80",
-      "disabled": true,
-      "name": "RP 58-80",
-      "category_id": "thermal_printer",
-      "vendor": "RP",
-      "vid": "0x0416",
-      "pid": "0x5015",
-      "thumbnail_url": "",
-      "diagnostic_steps": ["check_usb", "check_driver", "check_communication", "test_function"],
-      "drivers": [
-        {
-          "id": "rp5880-win-latest",
-          "version": "1.0.0",
-          "is_latest": true,
-          "release_date": "2025-11-15",
-          "download_url": "https://drive.usercontent.google.com/download?id=1Fg1VMO3hEhamqy1NC1o3fe1ycKspR8pg&export=download&confirm=t",
-          "size_bytes": 3800000,
-          "checksum_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
-          "supported_os": [{ "name": "windows", "versions": ["10", "11"] }],
-          "changelog": "Driver hỗ trợ cả khổ 58mm và 80mm"
-        }
-      ]
-    },
-    {
-      "id": "pos80series",
-      "disabled": true,
-      "name": "POS80 Series",
-      "category_id": "thermal_printer",
-      "vendor": "POS",
-      "vid": "0x1A86",
-      "pid": "0x7523",
-      "thumbnail_url": "",
-      "diagnostic_steps": ["check_usb", "check_driver", "check_communication", "test_function"],
-      "drivers": [
-        {
-          "id": "pos80-win-latest",
-          "version": "1.5.0",
-          "is_latest": true,
-          "release_date": "2026-02-28",
-          "download_url": "https://drive.usercontent.google.com/download?id=1nZFLGNCrIywMlZ33T5hlAyvTSvpPK0C7&export=download&confirm=t",
-          "size_bytes": 4100000,
-          "checksum_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
-          "supported_os": [{ "name": "windows", "versions": ["10", "11"] }],
-          "changelog": "Driver POS80 Series - hỗ trợ 58mm, 72mm, 80mm"
-        }
-      ]
-    },
-    {
       "id": "sgt88iv",
       "name": "SGT88IV",
       "category_id": "thermal_printer",
@@ -323,30 +251,6 @@
           "checksum_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
           "supported_os": [{ "name": "windows", "versions": ["10", "11"] }],
           "changelog": "Driver máy in tem 410B"
-        }
-      ]
-    },
-    {
-      "id": "label-zy609",
-      "disabled": true,
-      "name": "ZY609",
-      "category_id": "label_printer",
-      "vendor": "ZY",
-      "vid": "0x04B8",
-      "pid": "0x0609",
-      "thumbnail_url": "",
-      "diagnostic_steps": ["check_usb", "check_driver", "check_communication", "test_function"],
-      "drivers": [
-        {
-          "id": "zy609-win-latest",
-          "version": "1.0.0",
-          "is_latest": true,
-          "release_date": "2026-01-15",
-          "download_url": "https://drive.usercontent.google.com/download?id=1VXzDz4kLhwEoPbY6faLtdYCOiASeyKMc&export=download&confirm=t",
-          "size_bytes": 3800000,
-          "checksum_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
-          "supported_os": [{ "name": "windows", "versions": ["10", "11"] }],
-          "changelog": "Driver máy in tem ZY609"
         }
       ]
     },
@@ -443,30 +347,6 @@
       ]
     },
     {
-      "id": "scale-upaq",
-      "disabled": true,
-      "name": "UPA Q",
-      "category_id": "scale",
-      "vendor": "UNIPOS",
-      "vid": "0x1A86",
-      "pid": "0x7523",
-      "thumbnail_url": "",
-      "diagnostic_steps": ["check_usb", "check_driver", "check_communication", "test_function"],
-      "drivers": [
-        {
-          "id": "upaq-win-latest",
-          "version": "1.5.0",
-          "is_latest": true,
-          "release_date": "2026-03-08",
-          "download_url": "https://drive.usercontent.google.com/download?id=1fPEnUr9wAhXaBiXudDOMiFgIa0IeIAYF&export=download&confirm=t",
-          "size_bytes": 2200000,
-          "checksum_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
-          "supported_os": [{ "name": "windows", "versions": ["10", "11"] }],
-          "changelog": "Driver cân điện tử UPA Q"
-        }
-      ]
-    },
-    {
       "id": "scale-uwan",
       "name": "UWA N",
       "category_id": "scale",
@@ -486,30 +366,6 @@
           "checksum_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
           "supported_os": [{ "name": "windows", "versions": ["10", "11"] }],
           "changelog": "Driver cân điện tử UWA N"
-        }
-      ]
-    },
-    {
-      "id": "scale-uwam",
-      "disabled": true,
-      "name": "UWA M",
-      "category_id": "scale",
-      "vendor": "UNIPOS",
-      "vid": "0x1A86",
-      "pid": "0x7525",
-      "thumbnail_url": "",
-      "diagnostic_steps": ["check_usb", "check_driver", "check_communication", "test_function"],
-      "drivers": [
-        {
-          "id": "uwam-win-latest",
-          "version": "1.2.0",
-          "is_latest": true,
-          "release_date": "2026-02-25",
-          "download_url": "https://drive.usercontent.google.com/download?id=1S44gBY147QFWfJKZJBtPBSq6sQ8dvhdv&export=download&confirm=t",
-          "size_bytes": 1900000,
-          "checksum_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
-          "supported_os": [{ "name": "windows", "versions": ["10", "11"] }],
-          "changelog": "Driver cân điện tử UWA M"
         }
       ]
     },
@@ -578,18 +434,6 @@
           "checksum_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
           "supported_os": [{ "name": "windows", "versions": ["10"] }],
           "changelog": "Bổ sung tính năng tự động cuộn giá"
-        },
-        {
-          "id": "poleapp-v1.0.0",
-          "disabled": true,
-          "version": "1.0.0",
-          "is_latest": false,
-          "release_date": "2025-01-15",
-          "download_url": "https://drive.usercontent.google.com/download?id=18lL8yOMQdrWtAlgBhFwHkx3DgGzF_-7P&export=download&confirm=t",
-          "size_bytes": 7200000,
-          "checksum_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
-          "supported_os": [{ "name": "windows", "versions": ["10"] }],
-          "changelog": "Phiên bản đầu tiên"
         }
       ]
     },
@@ -668,7 +512,7 @@
           "download_url": "https://github.com/thanhphu183/kv-hardware-driver/raw/refs/heads/main/drivers/may-cham-cong/DoorKq-ver2.0/DoorKq_V3.1.9.exe",
           "size_bytes": 80905770,
           "checksum_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
-        "supported_os": [{ "name": "windows", "versions": ["10", "11"] }],
+          "supported_os": [{ "name": "windows", "versions": ["10"] }],
           "changelog": "Bổ sung quét vân tay, cải thiện UI"
         },
         {
@@ -679,7 +523,7 @@
           "download_url": "https://github.com/thanhphu183/kv-hardware-driver/raw/refs/heads/main/drivers/may-cham-cong/DoorKq-ver1.0/DoorKq_V3.0.8.exe",
           "size_bytes": 88294259,
           "checksum_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
-          "supported_os": [{ "name": "windows", "versions": ["10", "11"] }],
+          "supported_os": [{ "name": "windows", "versions": ["10"] }],
           "changelog": "Phiên bản đầu tiên"
         }
       ]
