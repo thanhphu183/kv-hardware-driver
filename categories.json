@@ -4,7 +4,6 @@
     { "id": "label_printer",   "name": "Máy in tem",     "icon": "tag" },
     { "id": "scale",           "name": "Cân điện tử",    "icon": "scale" },
     { "id": "price_display",   "name": "Cây hiển thị giá", "icon": "display" },
-    { "id": "qr_display",      "name": "Màn hình QR",    "icon": "qr" },
-    { "id": "attendance",      "name": "Máy chấm công",  "icon": "clock" }
+    { "id": "qr_display",      "name": "Màn hình QR",    "icon": "qr" }
   ]
 }
