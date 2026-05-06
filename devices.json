@@ -402,10 +402,21 @@
       "thumbnail_url": "",
       "diagnostic_steps": ["check_usb", "check_driver", "check_communication"],
       "drivers": [
+         {
+          "id": "poleapp-v3.0.0",
+          "version": "3.0.0",
+          "is_latest": true,
+          "release_date": "2026-03-01",
+          "download_url": "https://github.com/thanhphu183/kv-hardware-driver/raw/refs/heads/main/drivers/cay-hien-thi-gia/PoleApp-2.0/PL23XX-M_LogoDriver_Setup_4300_20240704.exe",
+          "size_bytes": 14815024,
+          "checksum_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+          "supported_os": [{ "name": "windows", "versions": ["10", "11"] }],
+          "changelog": "Giao diện mới, hỗ trợ màn hình 4.3 inch"
+        },
         {
           "id": "poleapp-v2.0.0",
           "version": "2.0.0",
-          "is_latest": true,
+          "is_latest": false,
           "release_date": "2026-03-01",
           "download_url": "https://github.com/thanhphu183/kv-hardware-driver/raw/refs/heads/main/drivers/cay-hien-thi-gia/PoleApp-2.0/PL23XX-M_LogoDriver_Setup_4300_20240704.exe",
           "size_bytes": 14815024,
@@ -421,7 +432,7 @@
           "download_url": "https://github.com/thanhphu183/kv-hardware-driver/raw/refs/heads/main/drivers/cay-hien-thi-gia/PoleApp-1.1.1/KVPoleApp_Setup_v1.1.1.msi",
           "size_bytes": 635904,
           "checksum_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
-          "supported_os": [{ "name": "windows", "versions": ["10"] }],
+          "supported_os": [{ "name": "windows", "versions": ["10", "11"] }],
           "changelog": "Sửa lỗi hiển thị giá khi có dấu chấm"
         },
         {
