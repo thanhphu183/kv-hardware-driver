@@ -393,62 +393,6 @@
       ]
     },
     {
-      "id": "poleapp",
-      "name": "PoleApp",
-      "category_id": "price_display",
-      "vendor": "KiotViet",
-      "vid": "0x154F",
-      "pid": "0x0010",
-      "thumbnail_url": "",
-      "diagnostic_steps": ["check_usb", "check_driver", "check_communication"],
-      "drivers": [
-         {
-          "id": "poleapp-v3.0.0",
-          "version": "3.0.0",
-          "is_latest": true,
-          "release_date": "2026-03-01",
-          "download_url": "https://github.com/thanhphu183/kv-hardware-driver/raw/refs/heads/main/drivers/cay-hien-thi-gia/PoleApp-2.0/PL23XX-M_LogoDriver_Setup_4300_20240704.exe",
-          "size_bytes": 14815024,
-          "checksum_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
-          "supported_os": [{ "name": "windows", "versions": ["10", "11"] }],
-          "changelog": "Giao diện mới, hỗ trợ màn hình 4.3 inch"
-        },
-        {
-          "id": "poleapp-v2.0.0",
-          "version": "2.0.0",
-          "is_latest": false,
-          "release_date": "2026-03-01",
-          "download_url": "https://github.com/thanhphu183/kv-hardware-driver/raw/refs/heads/main/drivers/cay-hien-thi-gia/PoleApp-2.0/PL23XX-M_LogoDriver_Setup_4300_20240704.exe",
-          "size_bytes": 14815024,
-          "checksum_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
-          "supported_os": [{ "name": "windows", "versions": ["10", "11"] }],
-          "changelog": "Giao diện mới, hỗ trợ màn hình 4.3 inch"
-        },
-        {
-          "id": "poleapp-v1.1.1",
-          "version": "1.1.1",
-          "is_latest": false,
-          "release_date": "2025-11-10",
-          "download_url": "https://github.com/thanhphu183/kv-hardware-driver/raw/refs/heads/main/drivers/cay-hien-thi-gia/PoleApp-1.1.1/KVPoleApp_Setup_v1.1.1.msi",
-          "size_bytes": 635904,
-          "checksum_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
-          "supported_os": [{ "name": "windows", "versions": ["10", "11"] }],
-          "changelog": "Sửa lỗi hiển thị giá khi có dấu chấm"
-        },
-        {
-          "id": "poleapp-v1.1.0",
-          "version": "1.1.0",
-          "is_latest": false,
-          "release_date": "2025-06-05",
-          "download_url": "https://github.com/thanhphu183/kv-hardware-driver/raw/refs/heads/main/drivers/cay-hien-thi-gia/PoleApp-1.1.0/KVPoleApp_Setup_v1.1.0.msi",
-          "size_bytes": 663552,
-          "checksum_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
-          "supported_os": [{ "name": "windows", "versions": ["10"] }],
-          "changelog": "Bổ sung tính năng tự động cuộn giá"
-        }
-      ]
-    },
-    {
       "id": "kv68",
       "name": "KV68",
       "category_id": "qr_display",
@@ -491,51 +435,6 @@
           "checksum_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
           "supported_os": [{ "name": "windows", "versions": ["7", "10", "11"] }],
           "changelog": "Tăng tốc độ hiển thị QR"
-        }
-      ]
-    },
-    {
-      "id": "doorkq",
-      "name": "DoorKq",
-      "category_id": "attendance",
-      "vendor": "KiotViet",
-      "vid": "0x154F",
-      "pid": "0x00D0",
-      "thumbnail_url": "",
-      "diagnostic_steps": ["check_usb", "check_driver", "check_communication", "test_function"],
-      "drivers": [
-        {
-          "id": "doorkq-v3.0.0",
-          "version": "3.0.0",
-          "is_latest": true,
-          "release_date": "2026-03-01",
-          "download_url": "https://github.com/thanhphu183/kv-hardware-driver/raw/refs/heads/main/drivers/may-cham-cong/DoorKq-ver3.0/DoorKq_V3.1.31.exe",
-          "size_bytes": 9200000,
-          "checksum_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
-          "supported_os": [{ "name": "windows", "versions": ["10", "11"] }],
-          "changelog": "Hỗ trợ nhận diện khuôn mặt, thêm báo cáo tháng"
-        },
-        {
-          "id": "doorkq-v2.0.0",
-          "version": "2.0.0",
-          "is_latest": false,
-          "release_date": "2025-08-01",
-          "download_url": "https://github.com/thanhphu183/kv-hardware-driver/raw/refs/heads/main/drivers/may-cham-cong/DoorKq-ver2.0/DoorKq_V3.1.9.exe",
-          "size_bytes": 80905770,
-          "checksum_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
-          "supported_os": [{ "name": "windows", "versions": ["10"] }],
-          "changelog": "Bổ sung quét vân tay, cải thiện UI"
-        },
-        {
-          "id": "doorkq-v1.0.0",
-          "version": "1.0.0",
-          "is_latest": false,
-          "release_date": "2024-12-10",
-          "download_url": "https://github.com/thanhphu183/kv-hardware-driver/raw/refs/heads/main/drivers/may-cham-cong/DoorKq-ver1.0/DoorKq_V3.0.8.exe",
-          "size_bytes": 88294259,
-          "checksum_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
-          "supported_os": [{ "name": "windows", "versions": ["10"] }],
-          "changelog": "Phiên bản đầu tiên"
         }
       ]
     }
