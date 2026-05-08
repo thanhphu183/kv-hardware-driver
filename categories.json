@@ -2,6 +2,7 @@
   "data": [
     { "id": "thermal_printer", "name": "Máy in hóa đơn", "icon": "printer" },
     { "id": "label_printer",   "name": "Máy in tem",     "icon": "tag" },
-    { "id": "scale",           "name": "Cân điện tử",    "icon": "scale" }
+    { "id": "scale",           "name": "Cân điện tử",    "icon": "scale" },
+    { "id": "attendance",      "name": "Máy chấm công",  "icon": "clock" }
   ]
 }
