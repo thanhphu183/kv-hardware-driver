@@ -437,6 +437,29 @@
           "changelog": "Tăng tốc độ hiển thị QR"
         }
       ]
+    },
+    {
+      "id": "doorkq",
+      "name": "DoorKq",
+      "category_id": "attendance",
+      "vendor": "KiotViet",
+      "vid": "0x154F",
+      "pid": "0x00D0",
+      "thumbnail_url": "",
+      "diagnostic_steps": ["check_usb", "check_driver", "check_communication", "test_function"],
+      "drivers": [
+        {
+          "id": "doorkq-v3.0.0",
+          "version": "3.0.0",
+          "is_latest": true,
+          "release_date": "2026-03-01",
+          "download_url": "https://github.com/thanhphu183/kv-hardware-driver/raw/refs/heads/main/drivers/may-cham-cong/DoorKq-ver3.0/DoorKq_V3.1.31.exe",
+          "size_bytes": 9200000,
+          "checksum_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+          "supported_os": [{ "name": "windows", "versions": ["10", "11"] }],
+          "changelog": "Hỗ trợ nhận diện khuôn mặt, thêm báo cáo tháng"
+        }
+      ]
     }
   ]
 }
