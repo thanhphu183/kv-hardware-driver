@@ -6,7 +6,7 @@
       "category_id": "thermal_printer",
       "vendor": "BPT",
       "vid": "0x0483",
-      "pid": "0x5740",
+      "pid": "0x5743",
       "thumbnail_url": "",
       "diagnostic_steps": ["check_usb", "check_driver", "check_communication", "test_function"],
       "drivers": [
@@ -186,11 +186,11 @@
     },
     {
       "id": "hprt-receipt",
-      "name": "HPRT",
+      "name": "HPRT TP80NL",
       "category_id": "thermal_printer",
-      "vendor": "HPRT",
-      "vid": "0x0493",
-      "pid": "0x8760",
+      "vendor": "HPRT TP80NL",
+      "vid": "0x2AAF",
+      "pid": "0x6008",
       "thumbnail_url": "",
       "diagnostic_steps": ["check_usb", "check_driver", "check_communication", "test_function"],
       "drivers": [
@@ -203,7 +203,7 @@
           "size_bytes": 1680352,
           "checksum_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
           "supported_os": [{ "name": "windows", "versions": ["10", "11"] }],
-          "changelog": "Driver HPRT"
+          "changelog": "Driver HPRT TP80NL"
         }
       ]
     },
