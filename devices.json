@@ -3,6 +3,7 @@
     {
       "id": "bpt3",
       "name": "BPT3",
+      "printer_name": "XPrinter Printer-80",
       "category_id": "thermal_printer",
       "vendor": "BPT",
       "vid": "0x0483",
@@ -26,6 +27,7 @@
     {
       "id": "zy307",
       "name": "ZY307",
+      "printer_name": "Printer Printer-80",
       "category_id": "thermal_printer",
       "vendor": "ZY",
       "vid": "0x0483",
@@ -49,6 +51,8 @@
     {
       "id": "kv804",
       "name": "KV804",
+      "printer_name": "Printer POS-80",
+      "model_name": "KV804",
       "category_id": "thermal_printer",
       "vendor": "KiotViet",
       "vid": "0x1FC9",
@@ -210,7 +214,8 @@
     {
       "id": "365b",
       "name": "365B",
-      "printer_name": "Printer-80",
+      "printer_name": "4BARCODE 3B-365B",
+      "model_name": "Printer-80",
       "category_id": "label_printer",
       "vendor": "ZY",
       "vid": "0x1FC9",
