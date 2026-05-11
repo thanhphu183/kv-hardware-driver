@@ -1,56 +1,8 @@
 {
   "data": [
     {
-      "id": "bpt3",
-      "name": "BPT3",
-      "printer_name": "XPrinter Printer-80",
-      "category_id": "thermal_printer",
-      "vendor": "BPT",
-      "vid": "0x0483",
-      "pid": "0x5743",
-      "thumbnail_url": "",
-      "diagnostic_steps": ["check_usb", "check_driver", "check_communication", "test_function"],
-      "drivers": [
-        {
-          "id": "bpt3-win-latest",
-          "version": "2.1.0",
-          "is_latest": true,
-          "release_date": "2026-03-15",
-          "download_url": "https://github.com/thanhphu183/kv-hardware-driver/raw/refs/heads/main/drivers/may-in-hoa-don/BPT3/POS%C2%A0Printer%C2%A0Driver%C2%A0Setup%C2%A0V7.17.exe",
-          "size_bytes": 2702114,
-          "checksum_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
-          "supported_os": [{ "name": "windows", "versions": ["10", "11"] }],
-          "changelog": "Driver máy in hóa đơn BPT3"
-        }
-      ]
-    },
-    {
-      "id": "zy307",
-      "name": "ZY307",
-      "printer_name": "Printer Printer-80",
-      "category_id": "thermal_printer",
-      "vendor": "ZY",
-      "vid": "0x0483",
-      "pid": "0x5743",
-      "thumbnail_url": "",
-      "diagnostic_steps": ["check_usb", "check_driver", "check_communication", "test_function"],
-      "drivers": [
-        {
-          "id": "zy307-win-latest",
-          "version": "1.5.0",
-          "is_latest": true,
-          "release_date": "2026-03-20",
-          "download_url": "https://github.com/thanhphu183/kv-hardware-driver/raw/refs/heads/main/drivers/may-in-hoa-don/ZY307/POS%20Printer%20Driver%20V8.03.exe",
-          "size_bytes": 2597761,
-          "checksum_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
-          "supported_os": [{ "name": "windows", "versions": ["10", "11"] }],
-          "changelog": "Driver máy in hóa đơn ZY307"
-        }
-      ]
-    },
-    {
       "id": "kv804",
-      "name": "KV804",
+      "name": "Máy in hóa đơn KV804",
       "printer_name": "Printer POS-80",
       "model_name": "KV804",
       "category_id": "thermal_printer",
@@ -74,123 +26,110 @@
       ]
     },
     {
-      "id": "pos-win11",
-      "name": "POS Win11",
+      "id": "zy307",
+      "name": "Máy in hóa đơn KPOS ZY307",
+      "printer_name": "Printer Printer-80",
+      "model_name": "Printer-80",
       "category_id": "thermal_printer",
-      "vendor": "POS",
-      "vid": "0x0416",
-      "pid": "0x5011",
-      "thumbnail_url": "",
-      "diagnostic_steps": ["check_usb", "check_driver", "check_communication", "test_function"],
-      "drivers": [
-        {
-          "id": "pos-win11-latest",
-          "version": "1.0.0",
-          "is_latest": true,
-          "release_date": "2026-02-01",
-          "download_url": "https://github.com/thanhphu183/kv-hardware-driver/raw/refs/heads/main/drivers/may-in-hoa-don/Pos-Win11/XPrinter%20Driver%20Setup%20win%2011%20V7.77.exe",
-          "size_bytes": 4951936,
-          "checksum_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
-          "supported_os": [{ "name": "windows", "versions": ["11"] }],
-          "changelog": "Driver tối ưu cho Windows 11"
-        }
-      ]
-    },
-    {
-      "id": "itp",
-      "name": "ITP",
-      "category_id": "thermal_printer",
-      "vendor": "ITP",
+      "vendor": "ZY",
       "vid": "0x0483",
-      "pid": "0x7523",
+      "pid": "0x5743",
       "thumbnail_url": "",
       "diagnostic_steps": ["check_usb", "check_driver", "check_communication", "test_function"],
       "drivers": [
         {
-          "id": "itp-win-latest",
-          "version": "1.2.0",
+          "id": "zy307-win-latest",
+          "version": "1.5.0",
           "is_latest": true,
-          "release_date": "2026-03-14",
-          "download_url": "https://github.com/thanhphu183/kv-hardware-driver/raw/refs/heads/main/drivers/may-in-hoa-don/ITP/HPRT%20POS%20Printer%20Driver%20v2.7.3.17.exe",
-          "size_bytes": 1717640,
+          "release_date": "2026-03-20",
+          "download_url": "https://github.com/thanhphu183/kv-hardware-driver/raw/refs/heads/main/drivers/may-in-hoa-don/ZY307/POS%20Printer%20Driver%20V8.03.exe",
+          "size_bytes": 2597761,
           "checksum_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
           "supported_os": [{ "name": "windows", "versions": ["10", "11"] }],
-          "changelog": "Driver máy in ITP"
+          "changelog": "Driver máy in hóa đơn KPOS ZY307"
         }
       ]
     },
     {
-      "id": "xprinter",
-      "name": "Xprinter",
+      "id": "bpt3",
+      "name": "Máy in hóa đơn KPOS BP-T3",
+      "printer_name": "XPrinter Printer-80",
+      "model_name": "Printer-80",
       "category_id": "thermal_printer",
-      "vendor": "Xprinter",
-      "vid": "0x0416",
-      "pid": "0x5012",
+      "vendor": "BPT",
+      "vid": "0x0483",
+      "pid": "0x5743",
       "thumbnail_url": "",
       "diagnostic_steps": ["check_usb", "check_driver", "check_communication", "test_function"],
       "drivers": [
         {
-          "id": "xprinter-win-latest",
-          "version": "2.0.5",
+          "id": "bpt3-win-latest",
+          "version": "2.1.0",
           "is_latest": true,
-          "release_date": "2026-03-10",
-          "download_url": "https://github.com/thanhphu183/kv-hardware-driver/raw/refs/heads/main/drivers/may-in-hoa-don/Xprinter/XPrinter%C2%A0Driver%C2%A0Setup%C2%A0V7.77.exe",
-          "size_bytes": 3849504,
+          "release_date": "2026-03-15",
+          "download_url": "https://github.com/thanhphu183/kv-hardware-driver/raw/refs/heads/main/drivers/may-in-hoa-don/BPT3/POS%C2%A0Printer%C2%A0Driver%C2%A0Setup%C2%A0V7.17.exe",
+          "size_bytes": 2702114,
           "checksum_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
           "supported_os": [{ "name": "windows", "versions": ["10", "11"] }],
-          "changelog": "Driver Xprinter"
+          "changelog": "Driver máy in hóa đơn KPOS BP-T3"
         }
       ]
     },
     {
-      "id": "xprinter-2",
-      "name": "Xprinter 2.0",
+      "id": "kv838",
+      "name": "Máy in hoá đơn bar-bếp KV838",
+      "printer_name": "Printer POS-80",
+      "model_name": "KV838",
       "category_id": "thermal_printer",
-      "vendor": "Xprinter",
-      "vid": "0x0416",
-      "pid": "0x5013",
+      "vendor": "KiotViet",
+      "vid": "0x1FC9",
+      "pid": "0x2016",
       "thumbnail_url": "",
       "diagnostic_steps": ["check_usb", "check_driver", "check_communication", "test_function"],
       "drivers": [
         {
-          "id": "xprinter2-win-latest",
+          "id": "kv838-win-latest",
+          "version": "3.0.1",
+          "is_latest": true,
+          "release_date": "2026-03-18",
+          "download_url": "https://github.com/thanhphu183/kv-hardware-driver/raw/refs/heads/main/drivers/may-in-hoa-don/ZY307/POS%20Printer%20Driver%20V8.03.exe",
+          "size_bytes": 4142173,
+          "checksum_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+          "supported_os": [{ "name": "windows", "versions": ["10", "11"] }],
+          "changelog": "Driver máy in hóa đơn KV804"
+        }
+      ]
+    },
+    {  
+      "id": "zy606",
+      "name": "Máy in hóa đơn KPOS ZY606",
+      "printer_name": "Printer Printer-80",
+      "model_name": "Printer-80",
+      "category_id": "thermal_printer",
+      "vendor": "ZY",
+      "vid": "0x0483",
+      "pid": "0x5743",
+      "thumbnail_url": "",
+      "diagnostic_steps": ["check_usb", "check_driver", "check_communication", "test_function"],
+      "drivers": [
+        {
+          "id": "zy606-win-latest",
           "version": "1.0.0",
           "is_latest": true,
-          "release_date": "2026-01-20",
-          "download_url": "https://github.com/thanhphu183/kv-hardware-driver/raw/refs/heads/main/drivers/may-in-hoa-don/Xprinter%202.0/Xprinter.receipt.driver.2025.04.14.exe",
-          "size_bytes": 9644032,
+          "release_date": "2025-12-01",
+          "download_url": "https://github.com/thanhphu183/kv-hardware-driver/raw/refs/heads/main/drivers/may-in-hoa-don/ZY307/POS%20Printer%20Driver%20V8.03.exe",
+          "size_bytes": 1680352,
           "checksum_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
           "supported_os": [{ "name": "windows", "versions": ["10", "11"] }],
-          "changelog": "Driver Xprinter 2.0"
-        }
-      ]
-    },
-    {
-      "id": "sgt88iv",
-      "name": "SGT88IV",
-      "category_id": "thermal_printer",
-      "vendor": "SGT",
-      "vid": "0x0416",
-      "pid": "0x5016",
-      "thumbnail_url": "",
-      "diagnostic_steps": ["check_usb", "check_driver", "check_communication", "test_function"],
-      "drivers": [
-        {
-          "id": "sgt88iv-win-latest",
-          "version": "1.0.0",
-          "is_latest": true,
-          "release_date": "2026-01-05",
-          "download_url": "https://github.com/thanhphu183/kv-hardware-driver/raw/refs/heads/main/drivers/may-in-hoa-don/SGT88IV/DriverSetup.exe",
-          "size_bytes": 113664,
-          "checksum_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
-          "supported_os": [{ "name": "windows", "versions": ["10", "11"] }],
-          "changelog": "Driver SGT88IV"
+          "changelog": "Driver máy in hóa đơn KPOS ZY606"
         }
       ]
     },
     {
       "id": "hprt-receipt",
       "name": "HPRT TP80NL",
+      "printer_name": "HPRT TP80NL",
+      "model_name": "TP80NL",
       "category_id": "thermal_printer",
       "vendor": "HPRT TP80NL",
       "vid": "0x2AAF",
@@ -212,12 +151,174 @@
       ]
     },
     {
+      "id": "gprinter-5890",
+      "name": "Máy in hóa đơn nhiệt Gprinter 5890",
+      "category_id": "thermal_printer",
+      "vendor": "GPRINTER",
+      "vid": "0x2AAF",
+      "pid": "0x6008",
+      "thumbnail_url": "",
+      "diagnostic_steps": ["check_usb", "check_driver", "check_communication", "test_function"],
+      "drivers": [
+        {
+          "id": "gprinter-5890-win-latest",
+          "version": "1.0.0",
+          "is_latest": true,
+          "release_date": "2025-12-01",
+          "download_url": "https://github.com/thanhphu183/kv-hardware-driver/raw/refs/heads/main/drivers/hprt/hoa-don/HPRT%20POS%20Printer%20Driver%20v2.6.1.0.exe",
+          "size_bytes": 1680352,
+          "checksum_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+          "supported_os": [{ "name": "windows", "versions": ["10", "11"] }],
+          "changelog": "Driver máy in hóa đơn nhiệt Gprinter 5890"
+        }
+      ]
+    },
+    {
+      "id": "kp-c9",
+      "name": "Máy in hóa đơn nhiệt KP-C9",
+      "category_id": "thermal_printer",
+      "vendor": "KP",
+      "vid": "0x2AAF",
+      "pid": "0x6008",
+      "thumbnail_url": "",
+      "diagnostic_steps": ["check_usb", "check_driver", "check_communication", "test_function"],
+      "drivers": [
+        {
+          "id": "kp-c9-win-lasted",
+          "version": "1.0.0",
+          "is_latest": true,
+          "release_date": "2025-12-01",
+          "download_url": "https://github.com/thanhphu183/kv-hardware-driver/raw/refs/heads/main/drivers/hprt/hoa-don/HPRT%20POS%20Printer%20Driver%20v2.6.1.0.exe",
+          "size_bytes": 1680352,
+          "checksum_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+          "supported_os": [{ "name": "windows", "versions": ["10", "11"] }],
+          "changelog": "Driver máy in hóa đơn nhiệt KP-C9"
+        }
+      ]
+    },
+    {
+      "id": "gprinter-k80",
+      "name": "Máy in hóa đơn Gprinter K80",
+      "category_id": "thermal_printer",
+      "vendor": "GPRINTER",
+      "vid": "0x2AAF",
+      "pid": "0x6008",
+      "thumbnail_url": "",
+      "diagnostic_steps": ["check_usb", "check_driver", "check_communication", "test_function"],
+      "drivers": [
+        {
+          "id": "gprinter-k80-win-latest",
+          "version": "1.0.0",
+          "is_latest": true,
+          "release_date": "2025-12-01",
+          "download_url": "https://github.com/thanhphu183/kv-hardware-driver/raw/refs/heads/main/drivers/hprt/hoa-don/HPRT%20POS%20Printer%20Driver%20v2.6.1.0.exe",
+          "size_bytes": 1680352,
+          "checksum_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+          "supported_os": [{ "name": "windows", "versions": ["10", "11"] }],
+          "changelog": "Driver máy in hóa đơn Gprinter k80"
+        }
+      ]
+    },
+    {
+      "id": "label-shoptida",
+      "name": "Máy in hóa đơn Shoptida SP-46",
+      "category_id": "thermal_printer",
+      "vendor": "Shoptida",
+      "vid": "0x1D90",
+      "pid": "0x2061",
+      "thumbnail_url": "",
+      "diagnostic_steps": ["check_usb", "check_driver", "check_communication", "test_function"],
+      "drivers": [
+        {
+          "id": "shoptida-sp46-win-latest",
+          "version": "1.0.0",
+          "is_latest": true,
+          "release_date": "2025-10-20",
+          "download_url": "https://github.com/thanhphu183/kv-hardware-driver/raw/refs/heads/main/drivers/may-in-tem/Shoptida/SHOPTIDA_SP46_Label_Printer_Windows_Driver_v2.7.2.3.exe",
+          "size_bytes": 1617327,
+          "checksum_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+          "supported_os": [{ "name": "windows", "versions": ["10", "11"] }],
+          "changelog": "Driver máy in hóa đơn Shoptida SP-46"
+        }
+      ]
+    },
+    {
+      "id": "zonerich-ab",
+      "name": "Máy in hóa đơn ZoneRich AB",
+      "category_id": "thermal_printer",
+      "vendor": "ZR",
+      "vid": "0x2AAF",
+      "pid": "0x6008",
+      "thumbnail_url": "",
+      "diagnostic_steps": ["check_usb", "check_driver", "check_communication", "test_function"],
+      "drivers": [
+        {
+          "id": "zonerich-ab-win-lasted",
+          "version": "1.0.0",
+          "is_latest": true,
+          "release_date": "2025-12-01",
+          "download_url": "https://github.com/thanhphu183/kv-hardware-driver/raw/refs/heads/main/drivers/hprt/hoa-don/HPRT%20POS%20Printer%20Driver%20v2.6.1.0.exe",
+          "size_bytes": 1680352,
+          "checksum_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+          "supported_os": [{ "name": "windows", "versions": ["10", "11"] }],
+          "changelog": "Driver máy in hóa đơn ZoneRich AB"
+        }
+      ]
+    },
+    {
+      "id": "star-bsc10",
+      "name": "Máy in hóa đơn Star BSC10",
+      "category_id": "thermal_printer",
+      "vendor": "SB",
+      "vid": "0x2AAF",
+      "pid": "0x6008",
+      "thumbnail_url": "",
+      "diagnostic_steps": ["check_usb", "check_driver", "check_communication", "test_function"],
+      "drivers": [
+        {
+          "id": "star-bsc10-win-lasted",
+          "version": "1.0.0",
+          "is_latest": true,
+          "release_date": "2025-12-01",
+          "download_url": "https://github.com/thanhphu183/kv-hardware-driver/raw/refs/heads/main/drivers/hprt/hoa-don/HPRT%20POS%20Printer%20Driver%20v2.6.1.0.exe",
+          "size_bytes": 1680352,
+          "checksum_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+          "supported_os": [{ "name": "windows", "versions": ["10", "11"] }],
+          "changelog": "Driver máy in hóa đơn Star BSC10"
+        }
+      ]
+    },
+    {
+      "id": "code-sort-tp-3250",
+      "name": "Máy in nhiệt Code Sort TP-3250",
+      "category_id": "thermal_printer",
+      "vendor": "SB",
+      "vid": "0x2AAF",
+      "pid": "0x6008",
+      "thumbnail_url": "",
+      "diagnostic_steps": ["check_usb", "check_driver", "check_communication", "test_function"],
+      "drivers": [
+        {
+          "id": "code-sort-tp-3250-win-lasted",
+          "version": "1.0.0",
+          "is_latest": true,
+          "release_date": "2025-12-01",
+          "download_url": "https://github.com/thanhphu183/kv-hardware-driver/raw/refs/heads/main/drivers/hprt/hoa-don/HPRT%20POS%20Printer%20Driver%20v2.6.1.0.exe",
+          "size_bytes": 1680352,
+          "checksum_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+          "supported_os": [{ "name": "windows", "versions": ["10", "11"] }],
+          "changelog": "Driver máy in nhiệt Code Sort TP-3250"
+        }
+      ]
+    },
+
+    {
       "id": "365b",
-      "name": "365B",
+      "name": "Máy in mã vạch 2 tem XP-365B",
       "printer_name": "4BARCODE 3B-365B",
       "model_name": "Printer-80",
       "category_id": "label_printer",
-      "vendor": "ZY",
+      "vendor": "4BARCODE",
       "vid": "0x1FC9",
       "pid": "0x2016",
       "thumbnail_url": "",
@@ -232,15 +333,38 @@
           "size_bytes": 52533824,
           "checksum_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
           "supported_os": [{ "name": "windows", "versions": ["10", "11"] }],
-          "changelog": "Driver máy in tem 365B"
+          "changelog": "Driver máy in mã vạch 2 tem XP-365B"
+        }
+      ]
+    },
+    {
+      "id": "d35",
+      "name": "Máy in mã vạch D35",
+      "category_id": "label_printer",
+      "vendor": "4BARCODE",
+      "vid": "0x1FC9",
+      "pid": "0x2016",
+      "thumbnail_url": "",
+      "diagnostic_steps": ["check_usb", "check_driver", "check_communication", "test_function"],
+      "drivers": [
+        {
+          "id": "d35-win-latest",
+          "version": "2.0.0",
+          "is_latest": true,
+          "release_date": "2026-03-05",
+          "download_url": "https://github.com/thanhphu183/kv-hardware-driver/raw/refs/heads/main/drivers/may-in-tem/365B/Xprinter_2022.2.exe",
+          "size_bytes": 52533824,
+          "checksum_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+          "supported_os": [{ "name": "windows", "versions": ["10", "11"] }],
+          "changelog": "Driver máy in mã vạch D35"
         }
       ]
     },
     {
       "id": "label-410b",
-      "name": "410B",
+      "name": "Máy in mã vạch Xprinter XP-410B",
       "category_id": "label_printer",
-      "vendor": "ZY",
+      "vendor": "4BARCODE",
       "vid": "0x04B8",
       "pid": "0x0410",
       "thumbnail_url": "",
@@ -255,102 +379,35 @@
           "size_bytes": 59762264,
           "checksum_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
           "supported_os": [{ "name": "windows", "versions": ["10", "11"] }],
-          "changelog": "Driver máy in tem 410B"
+          "changelog": "Driver Máy in mã vạch Xprinter XP-410B"
         }
       ]
     },
     {
-      "id": "label-tsc",
-      "name": "TSC",
+      "id": "sbarco-t4e",
+      "name": "Máy in mã vạch SBARCO T4e",
       "category_id": "label_printer",
-      "vendor": "TSC",
-      "vid": "0x1203",
-      "pid": "0x0140",
+      "vendor": "SBARCO",
+      "vid": "0x04B8",
+      "pid": "0x0410",
       "thumbnail_url": "",
       "diagnostic_steps": ["check_usb", "check_driver", "check_communication", "test_function"],
       "drivers": [
         {
-          "id": "tsc-win-latest",
-          "version": "3.0.0",
+          "id": "sbarco-t4e-win-latest",
+          "version": "1.3.0",
           "is_latest": true,
-          "release_date": "2026-02-20",
-          "download_url": "https://github.com/thanhphu183/kv-hardware-driver/raw/refs/heads/main/drivers/may-in-tem/TSC/TSC_2022.2.exe",
-          "size_bytes": 52529712,
+          "release_date": "2026-02-10",
+          "download_url": "https://github.com/thanhphu183/kv-hardware-driver/raw/refs/heads/main/drivers/may-in-tem/410B/4BARCODE_2024.2.exe",
+          "size_bytes": 59762264,
           "checksum_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
           "supported_os": [{ "name": "windows", "versions": ["10", "11"] }],
-          "changelog": "Driver TSC"
+          "changelog": "Driver máy in mã vạch SBARCO T4e"
         }
       ]
     },
-    {
-      "id": "label-godex",
-      "name": "Godex",
-      "category_id": "label_printer",
-      "vendor": "Godex",
-      "vid": "0x1D90",
-      "pid": "0x2060",
-      "thumbnail_url": "",
-      "diagnostic_steps": ["check_usb", "check_driver", "check_communication", "test_function"],
-      "drivers": [
-        {
-          "id": "godex-win-latest",
-          "version": "2.0.0",
-          "is_latest": true,
-          "release_date": "2026-03-01",
-          "download_url": "https://github.com/thanhphu183/kv-hardware-driver/raw/refs/heads/main/drivers/may-in-tem/Godex/Godex_2022.2.exe",
-          "size_bytes": 87712440,
-          "checksum_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
-          "supported_os": [{ "name": "windows", "versions": ["10", "11"] }],
-          "changelog": "Driver Godex"
-        }
-      ]
-    },
-    {
-      "id": "label-zebra",
-      "name": "Zebra",
-      "category_id": "label_printer",
-      "vendor": "Zebra",
-      "vid": "0x0A5F",
-      "pid": "0x00A3",
-      "thumbnail_url": "",
-      "diagnostic_steps": ["check_usb", "check_driver", "check_communication", "test_function"],
-      "drivers": [
-        {
-          "id": "zebra-win-latest",
-          "version": "4.0.0",
-          "is_latest": true,
-          "release_date": "2026-02-15",
-          "download_url": "https://github.com/thanhphu183/kv-hardware-driver/raw/refs/heads/main/drivers/may-in-tem/Zebra/Zebra_2022.2.exe",
-          "size_bytes": 90968456,
-          "checksum_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
-          "supported_os": [{ "name": "windows", "versions": ["10", "11"] }],
-          "changelog": "Driver Zebra"
-        }
-      ]
-    },
-    {
-      "id": "label-shoptida",
-      "name": "Shoptida",
-      "category_id": "label_printer",
-      "vendor": "Shoptida",
-      "vid": "0x1D90",
-      "pid": "0x2061",
-      "thumbnail_url": "",
-      "diagnostic_steps": ["check_usb", "check_driver", "check_communication", "test_function"],
-      "drivers": [
-        {
-          "id": "shoptida-win-latest",
-          "version": "1.0.0",
-          "is_latest": true,
-          "release_date": "2025-10-20",
-          "download_url": "https://github.com/thanhphu183/kv-hardware-driver/raw/refs/heads/main/drivers/may-in-tem/Shoptida/SHOPTIDA_SP46_Label_Printer_Windows_Driver_v2.7.2.3.exe",
-          "size_bytes": 1617327,
-          "checksum_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
-          "supported_os": [{ "name": "windows", "versions": ["10", "11"] }],
-          "changelog": "Driver Shoptida"
-        }
-      ]
-    },
+   
+    
     {
       "id": "scale-uwan",
       "name": "UWA N",
@@ -443,9 +500,13 @@
         }
       ]
     },
+
+
     {
       "id": "doorkq",
-      "name": "DoorKq",
+      "name": "Máy chấm công KPOS N308",
+      "printer_name": "USB Mass Storage Device",
+      "model_name": "Fp-DeviceMS-MSDC",
       "category_id": "attendance",
       "vendor": "KiotViet",
       "vid": "0x1B3F",
