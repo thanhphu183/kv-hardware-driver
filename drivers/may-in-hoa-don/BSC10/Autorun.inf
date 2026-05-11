@@ -1,0 +1,6 @@
+[autorun]
+icon=Autorun.exe
+open=Autorun.exe
+
+shell\Log=AutoPlay [Logging](&L)
+shell\Log\command=Autorun.exe /l
