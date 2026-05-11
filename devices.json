@@ -234,7 +234,7 @@
           "version": "1.0.0",
           "is_latest": true,
           "release_date": "2025-10-20",
-          "download_url": "https://github.com/thanhphu183/kv-hardware-driver/raw/refs/heads/main/drivers/may-in-tem/Shoptida/SHOPTIDA_SP46_Label_Printer_Windows_Driver_v2.7.2.3.exe",
+          "download_url": "https://github.com/thanhphu183/kv-hardware-driver/raw/refs/heads/main/drivers/may-in-hoa-don/Shoptida/SHOPTIDA_SP46_Label_Printer_Windows_Driver_v2.7.2.3.exe",
           "size_bytes": 1617327,
           "checksum_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
           "supported_os": [{ "name": "windows", "versions": ["10", "11"] }],
