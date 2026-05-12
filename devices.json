@@ -107,8 +107,8 @@
       "model_name": "Printer-80",
       "category_id": "thermal_printer",
       "vendor": "KPOS",
-      "vid": "",
-      "pid": "",
+      "vid": "0x0483",
+      "pid": "0x5743",
       "thumbnail_url": "",
       "diagnostic_steps": ["check_usb", "check_driver", "check_communication", "test_function"],
       "drivers": [
