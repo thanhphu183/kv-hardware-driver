@@ -384,6 +384,29 @@
       ]
     },
     {
+      "id": "beeprt",
+      "name": "Máy in mã vạch Xprinter XP-410B",
+      "category_id": "label_printer",
+      "vendor": "BEEPRT",
+      "vid": "0x04B8",
+      "pid": "0x0410",
+      "thumbnail_url": "",
+      "diagnostic_steps": ["check_usb", "check_driver", "check_communication", "test_function"],
+      "drivers": [
+        {
+          "id": "beeprt-win-latest",
+          "version": "1.3.0",
+          "is_latest": true,
+          "release_date": "2026-02-10",
+          "download_url": "https://github.com/thanhphu183/kv-hardware-driver/raw/refs/heads/main/drivers/may-in-tem/410B/4BARCODE_2024.2.exe",
+          "size_bytes": 59762264,
+          "checksum_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+          "supported_os": [{ "name": "windows", "versions": ["10", "11"] }],
+          "changelog": "Driver Máy in mã vạch Xprinter XP-410B"
+        }
+      ]
+    },
+    {
       "id": "sbarco-t4e",
       "name": "Máy in mã vạch SBARCO T4e",
       "category_id": "label_printer",
@@ -454,53 +477,6 @@
         }
       ]
     },
-    {
-      "id": "kv68",
-      "name": "KV68",
-      "category_id": "qr_display",
-      "vendor": "KiotViet",
-      "vid": "0x154F",
-      "pid": "0x0068",
-      "thumbnail_url": "",
-      "diagnostic_steps": ["check_usb", "check_driver", "check_communication"],
-      "drivers": [
-        {
-          "id": "kv68-win-latest",
-          "version": "1.2.0",
-          "is_latest": true,
-          "release_date": "2026-01-10",
-          "download_url": "https://github.com/thanhphu183/kv-hardware-driver/raw/refs/heads/main/drivers/man-qr/KV68-Win7/setup64.exe",
-          "size_bytes": 1040384,
-          "checksum_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
-          "supported_os": [{ "name": "windows", "versions": ["7", "10", "11"] }],
-          "changelog": "Hỗ trợ Windows 7 SP1"
-        }
-      ]
-    },
-    {
-      "id": "f92",
-      "name": "F92",
-      "category_id": "qr_display",
-      "vendor": "KiotViet",
-      "vid": "0x154F",
-      "pid": "0x0092",
-      "thumbnail_url": "",
-      "diagnostic_steps": ["check_usb", "check_driver", "check_communication"],
-      "drivers": [
-        {
-          "id": "f92-win-latest",
-          "version": "1.1.0",
-          "is_latest": true,
-          "release_date": "2025-12-15",
-          "download_url": "https://github.com/thanhphu183/kv-hardware-driver/raw/refs/heads/main/drivers/man-qr/F92-Win-7/VCP_V1.5.0_Setup_W7_x64_64bits.exe",
-          "size_bytes": 6906109,
-          "checksum_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
-          "supported_os": [{ "name": "windows", "versions": ["7", "10", "11"] }],
-          "changelog": "Tăng tốc độ hiển thị QR"
-        }
-      ]
-    },
-
 
     {
       "id": "doorkq",
