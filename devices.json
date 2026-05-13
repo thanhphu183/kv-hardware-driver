@@ -277,11 +277,11 @@
       "drivers": [
         {
           "id": "star-bsc10-win-lasted",
-          "version": "1.0.0",
+          "version": "1.4.3",
           "is_latest": true,
           "release_date": "2025-12-01",
-          "download_url": "https://github.com/thanhphu183/kv-hardware-driver/raw/refs/heads/main/drivers/may-in-hoa-don/BSC10/Autorun.exe",
-          "size_bytes": 1680352,
+          "download_url": "https://github.com/thanhphu183/kv-hardware-driver/raw/refs/heads/main/drivers/may-in-tem/BSC10/PrinterSoftware-1.4.3-StarBSC10_1.1-Release_x64.msi",
+          "size_bytes": 3453440,
           "checksum_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
           "supported_os": [{ "name": "windows", "versions": ["10", "11"] }],
           "changelog": "Driver máy in hóa đơn Star BSC10"
@@ -372,11 +372,11 @@
       "drivers": [
         {
           "id": "410b-win-latest",
-          "version": "2024.2",
+          "version": "2022.2",
           "is_latest": true,
           "release_date": "2026-02-10",
-          "download_url": "https://github.com/thanhphu183/kv-hardware-driver/raw/refs/heads/main/drivers/may-in-tem/410B/4BARCODE_2024.2.exe",
-          "size_bytes": 59762264,
+          "download_url": "https://github.com/thanhphu183/kv-hardware-driver/raw/refs/heads/main/drivers/may-in-tem/365B/Xprinter_2022.2.exe",
+          "size_bytes": 52533824,
           "checksum_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
           "supported_os": [{ "name": "windows", "versions": ["10", "11"] }],
           "changelog": "Driver Máy in mã vạch Xprinter XP-410B"
