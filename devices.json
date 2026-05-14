@@ -361,12 +361,14 @@
       ]
     },
     {
-      "id": "label-410b",
+      "id": "410b",
       "name": "Máy in mã vạch Xprinter XP-410B",
+      "printer_name": "4BARCODE 4B-2054K",
+      "model_name": "4B-2054K",
       "category_id": "label_printer",
       "vendor": "4BARCODE",
-      "vid": "",
-      "pid": "",
+      "vid": "0x2D84",
+      "pid": "0xB3E8",
       "thumbnail_url": "",
       "diagnostic_steps": ["check_usb", "check_driver", "check_communication", "test_function"],
       "drivers": [
